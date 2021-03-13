@@ -1,0 +1,313 @@
+/*1html*/
+
+.header-bg {
+    background-image: url('../image/bigtaddy.jpg ');
+    max-width: 1225px;
+    width: 100%;
+    height: 1144px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.logo {
+    font-size: 312px;
+    text-align: center;
+    color:#D95F80;
+}
+.welcome {
+    width: 600px;
+    height: 150px;
+    border-radius: 80px;
+    border-color: 2px solid black;
+    background-color: #D95F80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.well {
+    font-size: 80px;
+    color: white;
+}
+
+
+
+/*2html*/
+.home-body {
+    background-color: #de6e8c;
+     display: flex;
+    justify-content: center;
+}
+
+/*big seqtion*/
+
+/*header*/
+.header {
+    width: 1088px;
+    background-color: white;
+}
+.header-div {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.atoy {
+     font-size: 60px;
+     color: #D95F80;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #D95F80;
+  float: left;
+  width:474px;
+  height: 60px;
+  background: #FAFAFA;
+}
+
+form.example button {
+  float: left;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background: #FAFAFA;
+  color:  #D95F80;
+  font-size: 17px;
+  border: 1px solid #D95F80;
+  border-left: none;
+}
+.fa-cart-plus  {
+    color: #D95F80;
+    font-size: 30px;
+}
+.fa-heart {
+    color: #D95F80;
+    font-size: 30px;
+}
+
+.navigation {
+    background-color: #D95F80; 
+    height: 96px;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+}
+.white {
+    color: white;
+    font-size: 30px;
+}
+.blue {
+    color: #2000FF;
+    font-size: 30px;
+}
+li {
+    margin-top: 33px;
+}
+
+
+/*seqtion1*/
+
+.first {
+    width: 1088px;
+    height: 448px;
+    object-fit: cover;
+    position: absolute;
+}
+.wraper-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-box {
+    width: 77px;
+    height: 75px;
+    background-color: white;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 107px;
+}
+.box-icon {
+    width: 77px;
+    height: 75px;
+    background-color: white;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 107px;
+
+}
+.fa-caret-left {
+   font-size: 60px;
+    color: #D95F80;
+}
+.fa-caret-right {
+     font-size: 60px;
+    color: #D95F80;
+}
+.big-title {
+    color: #D95F80;
+    font-size: 196px;
+    position: relative;
+    margin-right: 320px;
+    margin-top: 107px
+}
+.more-box {
+    position: relative;
+    background-color: #D95F80;
+    width: 168px;
+    height: 54px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+     margin-top: 60px;
+    margin-left: 460px;
+}
+/*seqtion2*/
+
+.filter-wraper {
+    display: flex;
+    background-color: white;
+    margin-top: 32px;
+    justify-content: space-around;
+}
+.Filter-h1 {
+    font-size: 70px;
+}
+.filter-child {
+    width: 400px;
+    margin-top: 50px
+}
+.form-form {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.one-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53px;
+    height: 53px;
+    background-color: #E37090;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.two-box {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53px;
+    height: 53px;
+    background-color: #D9043D;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.three-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53px;
+    height: 53px;
+    background-color: #1BC0C9;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.fa-check {
+    color: white;
+}
+.little-wraper {
+    width: 55px;
+}
+.tall-wraper {
+    display: flex;
+    width: 190px;
+    justify-content: space-between;
+    margin-top: 140px
+}
+/*seqtion3*/
+.big-box-wraper-one {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.big-box-wraper-two {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.big-box-wraper-three {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.seqtion-box {
+    background-color: white;
+}
+.pushtoy {
+     border: 1px  solid red;
+}
+.naruto {
+     border: 1px  solid red;
+}
+.barbie {
+    border: 1px  solid red;
+}
+.train {
+    border: 1px  solid red;
+}
+.dress {
+    border: 1px  solid red;
+}
+.cat {
+    border: 1px  solid red;
+}
+.Misa {
+     border: 1px  solid red;
+}
+.Dog {
+    border: 1px  solid red;
+}
+.ItachiUchiha {
+     border: 1px  solid red;
+}
+.more-box-one {
+    position: relative;
+    background-color: #D95F80;
+    width: 168px;
+    height: 54px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+     margin-top: 60px;
+    margin-left: 460px;
+}
+.icon {
+     width: 53px;
+    height: 53px;
+    background-color: #1BC0C9;
+    border-radius: 50px;
+}
+.four-icon {
+    display: flex;
+}
