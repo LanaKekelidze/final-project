@@ -190,7 +190,7 @@ li {
 .filter-wraper {
     display: flex;
     background-color: white;
-    margin-top: 32px;
+    margin-top: 31px;
     justify-content: space-around;
 }
 .Filter-h1 {
