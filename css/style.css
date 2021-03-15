@@ -1,16 +1,14 @@
 /*1html*/
-.one-body {
-    height: 100%;
-    margin: 0;
-}
-.one-html {
-  height: 100%;
+
+.one-main {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .header-bg {
     background-image: url('../image/bigtaddy.jpg ');
+    max-width: 1225px;
     width: 100%;
-    height: 100%;
-      background-repeat: no-repeat;
+    height: 1144px;
     position: relative;
     display: flex;
     align-items: center;
@@ -28,6 +26,7 @@
     width: 600px;
     height: 150px;
     border-radius: 80px;
+    border-color: 2px solid black;
     background-color: #D95F80;
     display: flex;
     align-items: center;
@@ -50,7 +49,7 @@
     justify-content: center;
 }
 
-/* main */
+/*big seqtion*/
 
 /*header*/
 .header {
@@ -246,7 +245,9 @@ li {
     justify-content: space-between;
     margin-top: 140px
 }
-
+.par {
+  margin-left: 10px;
+}
 /*seqtion3*/
 .big-box-wraper-one {
     display: flex;
@@ -305,7 +306,7 @@ li {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-     margin-top: 60px;
+     margin-top: 85px;
     margin-left: 460px;
 }
 .icon {
@@ -314,6 +315,77 @@ li {
     background-color: #1BC0C9;
     border-radius: 50px;
 }
+/*footer*/
+footer {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .four-icon {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 76px;
+    background-color:#D95F80 ;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.fa-hands-helping {
+    font-size: 30px;
+    color: white;
+}
+.fa-clipboard-list {
+    font-size: 30px;
+    color: white;
+}
+.fa-money-check {
+    font-size: 30px;
+    color: white;
+}
+.fa-map-marker-alt {
+    font-size: 30px;
+    color: white;
+}
+.divaider {
+    display: flex;
+}
+.margin {
+   margin-left: 10px;
+    margin-top: 20px;
+}
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+hr {
+    margin-bottom: 50px;
+}
+.fa-facebook-square {
+    font-size: 30px;
+    color: #D95F80;
+}
+.fa-instagram-square {
+    font-size: 30px;
+    color: #D95F80;
+}
+.fa-twitter-square {
+    font-size: 30px;
+    color: #D95F80;
+}
+.three-icon {
+    width: 194px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-top: 30px;
 }
