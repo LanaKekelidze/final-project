@@ -4,10 +4,10 @@
     margin-top: 100px;
     margin-bottom: 100px;
     width: 1088px;
+    background-color: white;
 }
 .header-bg {
     background-image: url('../image/bigtaddy.jpg ');
-    max-width: 1225px;
     width: 100%;
     height: 675px;
     position: relative;
@@ -50,7 +50,7 @@
     justify-content: center;
 }
 
-/*big seqtion*/
+
 
 /*header*/
 .header {
@@ -81,14 +81,13 @@ form.example input[type=text] {
 
 form.example button {
   float: left;
-  width: 60px;
-  height: 60px;
+width: 318px;
+  height: 67px;
   padding: 10px;
   background: #FAFAFA;
   color:  #D95F80;
   font-size: 17px;
   border: 1px solid #D95F80;
-  border-left: none;
 }
 .fa-cart-plus  {
     color: #D95F80;
@@ -100,7 +99,7 @@ form.example button {
 }
 
 .navigation {
-    background-color: #D95F80;
+    background-color: #D95F80; 
     height: 96px;
 }
 .nav-ul {
@@ -390,4 +389,223 @@ hr {
     padding-bottom: 30px;
     margin-top: 30px;
     margin-left: 850px;
+}
+
+/*all.html*/
+.all-img {
+    width: 260px;
+}
+.red-all {
+    background-color: red;
+    border-radius: 79px;
+    width: 126px;
+    height: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.p-all {
+    font-size: 30px;
+    width: 57px;
+}
+.all-shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-right: 92px;
+    padding-left: 92px;
+}
+.all-h1 {
+    font-size: 70px;
+}
+/*seqtion2*/
+.seqtion-all {
+    background-image: url('../image/building.jpg ');
+    width: 100%;
+    height: 538px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 165px;
+    margin-bottom: 50px;
+}
+.seqtion-beach {
+    background-image: url('../image/beach.jpg ');
+    width: 100%;
+    height: 538px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 165px;
+    margin-bottom: 50px;
+}
+/*seqtion3*/
+.beach-div {
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.all-box-one {
+    position: relative;
+    background-color: #D95F80;
+    width: 168px;
+    height: 54px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+form.all button {
+  float: left;
+  width: 474px;
+  height: 60px;
+  padding: 10px;
+  background: #FAFAFA;
+  color:  #D95F80;
+  font-size: 17px;
+  border: 1px solid #D95F80;
+}
+   
+    /*boys.html*/
+
+.boys-wraper {
+
+}
+.boys-div {
+    display: flex;
+    padding-bottom: 127px;
+    justify-content: space-between;
+}
+.boys-form {
+    padding-top: 35px;
+    padding-left: 78px;
+}
+.boys-child {
+    margin-top: 18px;
+    margin-bottom: 63px;
+}
+.boys-box-one {
+     position: relative;
+    background-color: #D95F80;
+    width: 260px;
+    height: 66px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fa-angle-down {
+    font-size: 30px;
+}
+.boys-h3 {
+    font-size: 30px;
+}
+
+/*seqtion3*/
+.bigest-wraper-boys {
+    display: flex;
+    justify-content: space-between;
+}
+.bigest-box-boys {
+    position: relative;
+    background-color: #D95F80;
+    width: 92px;
+    height: 67px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.number-box {
+    width: 352px;
+    display: flex;
+    justify-content: space-between;
+}
+.number-child {
+    width: 70px;
+    height: 70px;
+    background-color: #D95F80;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boys-input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #D95F80;
+    float: left;
+    width: 318px;
+    height: 60px;
+    background: #FAFAFA;
+}
+
+/*contact.html*/
+.contact-wraper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+}
+.search-con {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Con-h1 {
+    font-size: 70px;
+    margin-bottom: 63px;
+}
+.con-p {
+    font-size: 30px;
+}
+form.contact input[type=text] {
+  border: 1px solid #D95F80;
+  width:444px;
+  height: 70px;
+  margin-bottom: 35px;
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  margin-top: 18px;
+}
+textarea.con-text {
+    width: 444px;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #D95F80;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    font-size: 15px;
+    resize: none;
+}
+form.contact label {
+  font-size: 20px;
+  resize: none;
+  margin-left: 15px;
+
+}
+button.con-button {;
+    border: 1px solid #D95F80;
+    width: 222px;
+    height: 70px;
+    margin-top: 60px;
+    margin-left: 112px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+/*toys.html*/
+.toyy {
+    padding-top: 48px;
+    padding-bottom: 56px;
 }
