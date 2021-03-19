@@ -15,7 +15,6 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-
 }
 
 .logo {
@@ -33,7 +32,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .well {
@@ -41,17 +39,12 @@
     color: white;
 }
 
-
-
-/*2html*/
+/* home-html */
 .home-body {
     background-color: #de6e8c;
      display: flex;
     justify-content: center;
 }
-
-
-
 /*header*/
 .header {
     width: 1088px;
@@ -68,26 +61,27 @@
      font-size: 60px;
      color: #D95F80;
 }
-
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid #D95F80;
-  float: left;
-  width:474px;
-  height: 60px;
-  background: #FAFAFA;
+input[type=search] {
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #D95F80;
+    width: 474px;
+    height: 60px;
+    background: #FAFAFA;
+    border-radius: 50px;
+    outline: none;
 }
-
-form.example button {
-  float: left;
-width: 318px;
-  height: 67px;
-  padding: 10px;
-  background: #FAFAFA;
-  color:  #D95F80;
-  font-size: 17px;
-  border: 1px solid #D95F80;
+button[type=search] {
+  background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    color: #D95F80;
+}
+.home-iconn {
+  display: flex;
+  width: 114px;
+  justify-content: space-between;
 }
 .fa-cart-plus  {
     color: #D95F80;
@@ -97,7 +91,6 @@ width: 318px;
     color: #D95F80;
     font-size: 30px;
 }
-
 .navigation {
     background-color: #D95F80;
     height: 96px;
@@ -117,8 +110,6 @@ width: 318px;
 li {
     margin-top: 33px;
 }
-
-
 /*seqtion1*/
 
 .first {
@@ -132,7 +123,6 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-
 .icon-box {
     width: 77px;
     height: 75px;
@@ -154,7 +144,6 @@ li {
     justify-content: center;
     align-items: center;
     margin-top: 107px;
-
 }
 .fa-caret-left {
    font-size: 60px;
@@ -306,11 +295,11 @@ li {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-     margin-top: 85px;
+    margin-top: 85px;
     margin-left: 460px;
 }
 .icon {
-     width: 53px;
+    width: 53px;
     height: 53px;
     background-color: #1BC0C9;
     border-radius: 50px;
@@ -474,11 +463,7 @@ form.all button {
   border: 1px solid #D95F80;
 }
 
-    /*boys.html*/
-
-.boys-wraper {
-
-}
+/*boys.html*/
 .boys-div {
     display: flex;
     padding-bottom: 127px;
@@ -572,21 +557,25 @@ form.contact input[type=text] {
   border: 1px solid #D95F80;
   width:444px;
   height: 70px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   background-color: #f8f8f8;
   border-radius: 15px;
   margin-top: 18px;
+  outline: none;
+  padding-left: 12px;
 }
 textarea.con-text {
     width: 444px;
     height: 200px;
-    padding: 12px 20px;
+    padding:12px 12px;
     box-sizing: border-box;
     border: 1px solid #D95F80;
     border-radius: 15px;
     background-color: #f8f8f8;
     font-size: 15px;
     resize: none;
+    outline: none;
+    margin-top: 30px;
 }
 form.contact label {
   font-size: 20px;
@@ -598,10 +587,29 @@ button.con-button {;
     border: 1px solid #D95F80;
     width: 222px;
     height: 70px;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 112px;
     font-size: 20px;
     border-radius: 15px;
+}
+input[type=search-o] {
+  padding: 20px;
+    font-size: 20px;
+    border: 1px solid #D95F80;
+    width: 275px;
+    height: 60px;
+    background: #FAFAFA;
+    border-radius: 50px;
+    outline: none;
+}
+
+button[type=-search] {
+  background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    color: #D95F80;
+
 }
 
 /*toys.html*/
