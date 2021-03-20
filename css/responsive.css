@@ -1,0 +1,13 @@
+@media (max-width:826px) {
+    .logo {
+        font-size: 163px;
+    }
+    .welcome {
+      width:400px;
+      height:112px;
+    }
+    .well {
+      font-size: 52px;
+    }
+
+}
