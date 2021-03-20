@@ -3,7 +3,8 @@
 .one-main {
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     background-color: white;
 }
 .header-bg {
@@ -60,7 +61,8 @@ a.atoy:hover, a.atoy:active {
 
 /*header*/
 .header {
-  width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     background-color: white;
 }
 .header-div {
@@ -336,6 +338,8 @@ div.icon-box:hover, div.icon-box:active {
 }
 .skal {
   padding-bottom: 20px;
+  max-width: 352px;
+  width: 100%;
 }
 .white {
   font-size: 30px;
@@ -448,7 +452,6 @@ footer {
     justify-content: space-between;
     padding-bottom: 30px;
     margin-top: 30px;
-    margin-left: 850px;
 }
 
 /*all.html*/
