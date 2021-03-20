@@ -831,9 +831,11 @@ button[type=toys-i] {
 .Con-h1 {
     font-size: 70px;
     margin-bottom: 63px;
+    color: #707070;
 }
 .con-p {
     font-size: 30px;
+    color: #707070;
 }
 form.contact input[type=text] {
   border: 1px solid #D95F80;
