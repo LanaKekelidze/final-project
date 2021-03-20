@@ -17,6 +17,9 @@
     justify-content: space-around;
     background-repeat: no-repeat;
 }
+.small {
+  width: 160px;
+}
 a.atoy:hover, a.atoy:active {
   font-size: 80px;
 }
@@ -449,6 +452,9 @@ footer {
 }
 
 /*all.html*/
+input.blue {
+  border: 1px solid #FF898F;
+}
 .fof {
   background-color: #F17A80;
 }
@@ -456,23 +462,9 @@ footer {
   font-size: 70px;
 }
 
-input[type=blue] {
-    padding: 20px;
-    font-size: 20px;
-    border: 1px solid #FF898F;
-    width: 474px;
-    height: 60px;
-    background: #FAFAFA;
-    border-radius: 50px;
-    outline: none;
-}
-button[type=blue] {
-  background-color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 30px;
-    color: #D95F80;
-    outline: none;
+
+button.blue {
+  color: #D95F80;
 }
 .pink {
   color: #FF898F;
@@ -638,23 +630,12 @@ form.all button {
 .boys-h3 {
     font-size: 30px;
 }
-input[type=sky] {
-    padding: 20px;
-    font-size: 20px;
+input.sky {
     border: 1px solid #1BC0C9;
-    width: 474px;
-    height: 60px;
-    background: #FAFAFA;
-    border-radius: 50px;
-    outline: none;
+
 }
-button[type=sky] {
-    background-color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 30px;
+button.sky {
     color: #1BC0C9;
-    outline: none;
   }
   .sky {
     color: #1BC0C9;
@@ -711,23 +692,11 @@ button[type=sky] {
 .gog {
   background-color: #C72450;
 }
-input[type=bold-p] {
-    padding: 20px;
-    font-size: 20px;
+input.bold-p {
     border: 1px solid #D9043D;
-    width: 474px;
-    height: 60px;
-    background: #FAFAFA;
-    border-radius: 50px;
-    outline: none;
   }
-  button[type=bold-p] {
-    background-color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 30px;
+  button.bold-p{
     color: #D9043D;
-    outline: none;
 }
 .bold-p {
   color: #D9043D;
@@ -769,23 +738,11 @@ input[type=bold-p] {
     padding-top: 48px;
     padding-bottom: 56px;
 }
-input[type=toys-i] {
-    padding: 20px;
-    font-size: 20px;
+input.toys-i {
     border: 1px solid #CDCDCD;
-    width: 474px;
-    height: 60px;
-    background: #FAFAFA;
-    border-radius: 50px;
-    outline: none;
 }
-button[type=toys-i] {
-    background-color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 30px;
+button.toys-i {
     color: #CDCDCD;
-    outline: none;
 }
 .toys-bi {
   color:  #CDCDCD;
