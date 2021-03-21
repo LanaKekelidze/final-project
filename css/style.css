@@ -370,17 +370,18 @@ div.more-box-one:hover {
     border-radius: 50px;
 }
 /*footer*/
-footer {
-    background-color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 .four-icon {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 85px;
     padding-bottom: 85px;
+}
+.dis-fle {
+    width: 546px;
+    display: flex;
+    justify-content: space-around;
 }
 .icon {
     display: flex;
@@ -408,6 +409,11 @@ footer {
     font-size: 30px;
     color: white;
 }
+.flex {
+  display: flex;
+  max-width: 1088px;
+  width: 100%;
+}
 .divaider {
     display: flex;
 }
@@ -420,6 +426,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .grey {
   font-size: 24px;
@@ -452,6 +460,7 @@ footer {
     justify-content: space-between;
     padding-bottom: 30px;
     margin-top: 30px;
+    padding-left: 20px;
 }
 
 /*all.html*/
@@ -618,7 +627,6 @@ form.all button {
     margin-bottom: 63px;
 }
 .boys-box-one {
-    position: relative;
     background-color:#15A9B1 ;
     width: 260px;
     height: 66px;
@@ -626,6 +634,12 @@ form.all button {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.many {
+  max-width: 1088px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .fa-angle-down {
     font-size: 30px;
