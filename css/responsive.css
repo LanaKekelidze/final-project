@@ -1,3 +1,4 @@
+/* boys.html */
 @media (max-width:826px) {
     .logo {
         font-size: 163px;
@@ -10,4 +11,63 @@
       font-size: 52px;
     }
 
+}
+@media (max-width: 881px) {
+  .none{
+    display: none;
+  }
+  .icon {
+    width: 66px;
+    height: 66px;
+  }
+  .one-main {
+    max-width: 718px;
+    width: 100%;
+  }
+  .divaider {
+      width: 240px;
+  }
+  .four-icon {
+    background-color: #CDCDCD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  .flex {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .small {
+    width: 120px;
+  }
+  .atoy {
+    font-size: 49px;
+  }
+  input[type=search] {
+    width: 264px;
+    height: 52px;
+  }
+  .Filter-h1 {
+    font-size: 60px;
+  }
+  .blue {
+    font-size: 25px;
+  }
+  .white {
+    font-size: 25px;
+  }
+  .boys-box-one {
+    margin-bottom: 20px;
+  }
+  .many {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .a.atoy:hover, a.atoy:active {
+    font-size: 50px;
+  }
 }
