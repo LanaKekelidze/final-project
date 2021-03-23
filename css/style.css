@@ -378,6 +378,13 @@ div.more-box-one:hover {
     padding-top: 85px;
     padding-bottom: 85px;
 }
+.tadtoy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
 .dis-fle {
     width: 546px;
     display: flex;
