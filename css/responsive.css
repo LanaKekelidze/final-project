@@ -70,4 +70,8 @@
   .a.atoy:hover, a.atoy:active {
     font-size: 50px;
   }
+  /* girls.html */
+  .boys-box-g {
+      margin-bottom: 20px;
+  }
 }
