@@ -148,6 +148,11 @@
     max-width: 350px;
   }
 }
+@media (max-width: 723px) {
+  .big-title {
+    margin-right: 307px;
+  }
+}
 @media (max-width: 712px){
   .shop-all {
     margin-left: 0px;
@@ -463,6 +468,11 @@
     font-size: 40px;
   }
 }
+@media (max-width: 712px){
+  .bear {
+    display: none;
+  }
+}
 
 @media (max-width: 352px) {
   /* index.html */
@@ -515,5 +525,10 @@
   form.contact input[type=text] {
     width: 250px;
     height: 45px;
+  }
+  /* home.html */
+  .filter-child {
+    font-size: 17px;
+    width: 240px;
   }
 }
