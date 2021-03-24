@@ -85,7 +85,7 @@
       background-image: url('../image/small.jpg ');
   }
   .big-title {
-    margin-right: 160px;
+   font-size: 110px;
     margin-top: 145px;
   }
   .icon-box {
