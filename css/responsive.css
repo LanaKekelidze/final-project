@@ -152,11 +152,6 @@
   .well {
     font-size: 40px;
   }
-  .header-bg {
-    justify-content: space-between;
-    padding-top: 120px;
-    padding-bottom: 140px;
-  }
 }
 
 @media (max-width: 428px) {
