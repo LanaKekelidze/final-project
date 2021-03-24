@@ -158,6 +158,9 @@
   .more-box-one {
     margin-left: 190px;
   }
+  .skal {
+    max-width: 307px;    
+  }
 }
 @media (max-width: 540px) {
   .tall-wraper {
