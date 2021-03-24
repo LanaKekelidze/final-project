@@ -102,4 +102,11 @@
   .boys-box-all {
     margin-bottom: 20px;
   }
+  .all-img {
+    width: 351px;
+  }
+  .shop-all {
+    justify-content: space-around;
+    margin-left: 158px;
+  }
 }
