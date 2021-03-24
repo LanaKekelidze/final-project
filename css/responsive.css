@@ -143,6 +143,7 @@
 @media (max-width: 648px) {
 /* home.html */
   .one-main {
+    max-width: 500px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -153,8 +154,8 @@
     display: none;
   }
   .big-title {
-    margin-right: 268px;
-    font-size: 110px;
+      margin-right: 176px;
+      font-size: 100px;
   }
   .more-box-one {
     margin-left: 190px;
