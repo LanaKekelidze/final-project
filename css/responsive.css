@@ -84,4 +84,7 @@
   .bear {
       background-image: url('../image/small.jpg ');
   }
+  .big-title {
+    margin-right: 160px;
+  }
 }
