@@ -158,3 +158,15 @@
     padding-bottom: 140px;
   }
 }
+
+@media (max-width: 428px) {
+  .logo {
+    font-size: 120px;
+  }
+  .welcome {
+    width: 352px;
+  }
+  .well {
+    font-size: 50px;
+  }
+}
