@@ -250,6 +250,18 @@
   .atoy {
     font-size: 23px;
   }
+  .pushtoy {
+  display:none;
+  }
+  .cat {
+  display: none;
+  }
+  .ItachiUchiha {
+  display: none;
+  }
+  .one {
+    margin-left: 10px;
+  }
 }
 @media (max-width: 428px) {
   /* index.html */
@@ -262,14 +274,6 @@
   .well {
     font-size: 50px;
   }
-  .pushtoy {
-  display:none;
-  }
-  .cat {
-  display: none;
-  }
-  .ItachiUchiha {
-  display: none;
 }
 
 @media (max-width: 352px) {
