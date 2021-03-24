@@ -140,6 +140,27 @@
 
   }
 }
+@media (max-width: 540px) {
+  .tall-wraper {
+    display: none;
+  }
+  .tall-wraper {
+    display: none;
+  }
+  .one-main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .blue {
+    font-size: 22px;
+  }
+  .white {
+    font-size: 22px;
+  }
+  skal {
+    max-width: 263px;
+  }
+}
 
 @media (max-width: 500px) {
   .logo {
