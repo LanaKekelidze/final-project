@@ -140,6 +140,18 @@
 
   }
 }
+@media (max-width: 648px) {
+  .header-div {
+    display: none;
+  }
+  .tall-wraper {
+    display: none;
+  }
+  .big-title {
+    margin-right: 207px;
+
+  }
+}
 @media (max-width: 540px) {
   .tall-wraper {
     display: none;
@@ -157,7 +169,7 @@
   .white {
     font-size: 22px;
   }
-  skal {
+  .skal {
     max-width: 263px;
   }
 }
