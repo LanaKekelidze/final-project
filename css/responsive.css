@@ -116,4 +116,13 @@
   .beach-div {
     width: 718px;
   }
+  /* contact */
+  form.contact input[type=text] {
+    width: 312px;
+    height: 50px;
+  }
+  textarea.con-text {
+    width: 312px;
+    height: 180px;
+  }
 }
