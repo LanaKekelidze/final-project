@@ -141,9 +141,10 @@
   }
 }
 @media (max-width: 648px) {
+/* all.html */
   .one-main {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .header-div {
     display: none;
@@ -159,7 +160,7 @@
     margin-left: 190px;
   }
   .skal {
-    max-width: 307px;    
+    max-width: 307px;
   }
 }
 @media (max-width: 540px) {
