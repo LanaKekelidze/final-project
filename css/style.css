@@ -72,6 +72,9 @@ a.atoy:hover, a.atoy:active {
     justify-content: center;
     justify-content: space-around;
 }
+.fa-bars {
+  display: none;
+}
 .atoy {
      font-size: 60px;
      color: #D95F80;
@@ -481,7 +484,6 @@ input.blue {
   font-size: 70px;
 }
 
-
 button.blue {
   color: #D95F80;
 }
@@ -493,7 +495,8 @@ button.blue {
 }
 
 .all-img {
-    width: 260px;
+    max-width: 260px;
+    width: 100%;
     padding-bottom: 10px;
 }
 .ten {
@@ -578,25 +581,26 @@ div.red-all:hover {
   display: flex;
   width: 650px;
   justify-content: space-between;
-  margin-left: 250px;
+  margin-left: 250px
 }
 /*seqtion3*/
 .beach-div {
-  width: 1088px;
-     display: flex;
-    align-items: center;
-    justify-content: space-around;
+  max-width: 1088px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .all-box-one {
-    background-color:  #FF898F;
-    width: 273px;
-    height: 70px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 200px;
+  background-color:  #FF898F;
+  width: 273px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 200px;
 }
 .wh-bg {
   font-size: 30px;
@@ -632,6 +636,17 @@ form.all button {
 .boys-child {
     margin-top: 18px;
     margin-bottom: 63px;
+}
+.b-block {
+  background-color:#15A9B1 ;
+  width: 168px;
+  height: 54px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
 }
 .boys-box-one {
     background-color:#15A9B1 ;
