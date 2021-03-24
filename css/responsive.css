@@ -262,6 +262,14 @@
   .well {
     font-size: 50px;
   }
+  .pushtoy {
+  display:none;
+  }
+  .cat {
+  display: none;
+  }
+  .ItachiUchiha {
+  display: none;
 }
 
 @media (max-width: 352px) {
