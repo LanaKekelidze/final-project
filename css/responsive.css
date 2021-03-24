@@ -140,3 +140,21 @@
 
   }
 }
+
+@media (max-width: 500px) {
+  .logo {
+    font-size: 120px;
+  }
+  .welcome {
+    width: 330px;
+    height: 90px;
+  }
+  .well {
+    font-size: 40px;
+  }
+  .header-bg {
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 140px;
+  }
+}
