@@ -141,6 +141,10 @@
   }
 }
 @media (max-width: 648px) {
+  .one-main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .header-div {
     display: none;
   }
@@ -148,7 +152,8 @@
     display: none;
   }
   .big-title {
-    margin-right: 207px;
+    margin-right: 105px;
+    font-size: 105px;
   }
   .more-box-one {
     margin-left: 190px;
@@ -174,6 +179,7 @@
   .skal {
     max-width: 263px;
   }
+
 }
 
 @media (max-width: 500px) {
