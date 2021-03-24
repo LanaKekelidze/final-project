@@ -1,4 +1,9 @@
 /* boys.html */
+@media (max-width:915px) {
+  .shop-all {
+    margin-left: 33px;
+  }
+}
 @media (max-width:826px) {
     .logo {
         font-size: 163px;
@@ -111,10 +116,10 @@
   }
   .shop-all {
     justify-content: space-around;
-    margin-left: 132px;
+    margin-left: 33px;
   }
   .beach-div {
-    width: 718px;
+    max-width: 718px;
   }
   /* contact */
   form.contact input[type=text] {
@@ -139,6 +144,55 @@
     margin-left: 87px;
 
   }
+  .all-img {
+    max-width: 350px;
+  }
+}
+@media (max-width: 712px){
+  .shop-all {
+    margin-left: 0px;
+      width: 560px;
+  }
+  .all-h {
+    font-size: 70px;
+  }
+  /* boys.html */
+  .toyy {
+    display: none;
+  }
+  .four-icon {
+    margin-top: 70px;
+  }
+  .doll {
+    font-size: 30px;
+  }
+  .kids {
+    font-size: 20px;
+  }
+  .b-block {
+    display: block;
+    display: flex;
+    margin-top: 30px;
+    margin: 0 auto;
+  }
+  /* toys.html */
+  .g-block {
+    background-color:#CDCDCD;
+  }
+  /* girls.html */
+  .gi-block {
+      background-color: #D9043D;
+  }
+  /* contact.html */
+  .contact-wraper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .important-div {
+    margin-top: 30px;
+  }
 }
 @media (max-width: 648px) {
 /* home.html */
@@ -147,15 +201,43 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .header-div {
+  .small {
     display: none;
+  }
+  input[type=search] {
+  display: none;
+  }
+  button[type=search] {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    color: white;
+    font-size: 30px;
+  }
+  .fa-heart {
+    color: white;
+  }
+  .fa-cart-plus {
+    color: white;
+  }
+  .navigation {
+    display: none;
+  }
+  .header-div {
+    height: 90px;
+    background-color: #D95F80;
+  }
+  .-g {
+    font-size: 25px;
   }
   .tall-wraper {
     display: none;
   }
+
   .big-title {
-      margin-right: 176px;
-      font-size: 100px;
+    margin-right: 176px;
+    font-size: 100px;
   }
   .more-box-one {
     margin-left: 190px;
@@ -163,7 +245,39 @@
   .skal {
     max-width: 307px;
   }
+  /* all.html */
+  .all-box-one {
+    display: none;
+  }
+  .block {
+    display: block;
+    display: flex;
+  }
+  .shtoy {
+    display: block;
+    display: flex;
+  }
+  .all-h {
+    font-size: 60px;
+  }
+  .all-img {
+    width: 243px;
+  }
+  .all-shop {
+    padding-right: 10px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+  }
+  .all-h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .b-block {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
 }
+
 @media (max-width: 599px) {
   /* home.html */
   .one-main {
@@ -189,20 +303,27 @@
   .skal {
     max-width: 263px;
   }
-
-}
-@media (max-width: 550px) {
-  .big-title {
-   margin-right: 226px;
+  /* all.html */
+  .shop-all {
+    max-width: 450px;
   }
-  .icon-box {
+  .than-none {
     display: none;
   }
-  .box-icon {
-    display: none;
+  .big-box-wraper-three {
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
-  .-g {
-    font-size: 20px;
+  .big-box-wraper-one {
+    justify-content: space-around;
+  }
+  .up {
+    margin-top: 10px;
+  }
+/* girls.html */
+  .big-box-wraper-two {
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -221,16 +342,19 @@
 }
 
 @media (max-width: 545px){
+  /* homr.html */
   .one-main {
     max-width: 375px;
     width: 100%;
   }
-  .nav-ul {
-    display: none;
+  .big-title {
+    margin-right: 50px;
+    margin-top: 105px;
   }
   .bear {
-    display: none;
+    height: 307px;
   }
+
   .form-form {
     margin-left: 105px;
   }
@@ -242,6 +366,21 @@
   }
   .one {
     margin-left: 15px;
+  }
+  .filter-child {
+    width: 280px;
+  }
+  .Filter-h1 {
+    font-size: 55px;
+  }
+  .form-form {
+    margin-left: 0px;
+  }
+  .-g {
+    font-size: 20px;
+  }
+  .nav-ul {
+    display: none;
   }
   .dis-fle {
     display: flex;
@@ -259,10 +398,52 @@
   .ItachiUchiha {
   display: none;
   }
-  .one {
-    margin-left: 10px;
+  .more-box-one {
+    margin-left: 17px;
+  }
+  /* all.html */
+  .big-box-wraper-two {
+    flex-wrap: wrap;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .big-box-wraper-one {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .different {
+    margin-bottom: 10px;
+  }
+  .boys-div {
+    display: none;
+    }
+    .all-h {
+    font-size: 35px;
+    margin-top: 25px;
+  }
+  .all-box-one  {
+    width: 200px;
+    height: 60px;
+  }
+  .shop-all {
+    max-width: 360px;
+  }
+  /* contact.html*/
+  textarea.con-text {
+    width: 300px;
+  }
+  form.contact input[type=text] {
+    width: 300px;
+    height: 50px;
   }
 }
+
 @media (max-width: 428px) {
   /* index.html */
   .logo {
@@ -273,6 +454,13 @@
   }
   .well {
     font-size: 50px;
+  }
+  /* boys.html */
+  .boys-form {
+    padding-left: 10px;
+  }
+  .Filter-h1 {
+    font-size: 40px;
   }
 }
 
@@ -290,6 +478,13 @@
   }
 }
 
+@media (max-width: 377px){
+  /* all.html */
+  .shop-all {
+      max-width: 290px;
+  }
+}
+
 @media (max-width: 332px) {
   /* index.html */
   .welcome {
@@ -301,5 +496,24 @@
   }
   .logo {
     font-size: 90px;
+  }
+  /* girls.html */
+  .boys-child {
+    font-size: 20px;
+  }
+  .-g {
+    font-size: 15px;
+  }
+  /* contact.html */
+  textarea.con-text {
+    width: 250px;
+    height: 163px;
+  }
+  button.con-button {
+    margin-left: 60px;
+  }
+  form.contact input[type=text] {
+    width: 250px;
+    height: 45px;
   }
 }
