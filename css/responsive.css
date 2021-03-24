@@ -187,6 +187,11 @@
   }
 
 }
+@media (max-width: 540px) {
+  .big-title {
+   margin-right: 226px;
+  }
+}
 
 @media (max-width: 500px) {
   /* index.html */
