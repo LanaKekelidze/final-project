@@ -99,6 +99,9 @@
     margin-left: 267px;
   }
   /* all */
+  .all-h1 {
+    font-size: 50px;
+  }
   .boys-box-all {
     margin-bottom: 20px;
   }
@@ -107,6 +110,6 @@
   }
   .shop-all {
     justify-content: space-around;
-    margin-left: 158px;
+    margin-left: 132px;
   }
 }
