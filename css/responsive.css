@@ -149,7 +149,9 @@
   }
   .big-title {
     margin-right: 207px;
-
+  }
+  .more-box-one {
+    margin-left: 190px;
   }
 }
 @media (max-width: 540px) {
