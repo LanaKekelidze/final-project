@@ -141,7 +141,7 @@
   }
 }
 @media (max-width: 648px) {
-/* all.html */
+/* home.html */
   .one-main {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -163,7 +163,8 @@
     max-width: 307px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 599px) {
+  /* home.html */
   .tall-wraper {
     display: none;
   }
@@ -187,6 +188,7 @@
 }
 
 @media (max-width: 500px) {
+  /* index.html */
   .logo {
     font-size: 120px;
   }
@@ -200,6 +202,7 @@
 }
 
 @media (max-width: 428px) {
+  /* index.html */
   .logo {
     font-size: 120px;
   }
