@@ -220,6 +220,37 @@
   }
 }
 
+@media (max-width: 545px){
+  .one-main {
+    max-width: 375px;
+    width: 100%;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .bear {
+    display: none;
+  }
+  .form-form {
+    margin-left: 105px;
+  }
+  .seqtion-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .one {
+    margin-left: 15px;
+  }
+  .dis-fle {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .atoy {
+    font-size: 23px;
+  }
+}
 @media (max-width: 428px) {
   /* index.html */
   .logo {
