@@ -188,6 +188,9 @@
   .gi-block {
       background-color: #D9043D;
   }
+  .ph-non {
+    display: none;
+  }
   /* contact.html */
   .contact-wraper {
     display: flex;
