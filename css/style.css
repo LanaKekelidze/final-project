@@ -33,7 +33,6 @@ a.atoy:hover, a.atoy:active {
     width: 600px;
     height: 150px;
     border-radius: 80px;
-    border-color: 2px solid black;
     background-color: #D95F80;
     display: flex;
     align-items: center;
@@ -114,7 +113,7 @@ i.fa-search:hover {
     font-size: 30px;
 }
 .navigation {
-    background-color: #D9043D;
+    background-color: #D95F80;
     height: 96px;
 }
 .nav-ul {
@@ -776,6 +775,12 @@ input.toys-i {
 }
 button.toys-i {
     color: #CDCDCD;
+}
+button.loud {
+  color: #D95F80;
+}
+input.loud {
+    border: 1px solid #D95F80;
 }
 .toys-bi {
   color:  #CDCDCD;
