@@ -152,6 +152,9 @@
   .big-title {
     margin-right: 307px;
   }
+  .all-img {
+    max-width: 330px;
+  }
 }
 @media (max-width: 712px){
   .shop-all {
@@ -200,6 +203,12 @@
   }
   .important-div {
     margin-top: 30px;
+  }
+  /* all.html */
+}
+@media (max-width:681px) {
+  .all-img {
+    max-width: 314px;
   }
 }
 @media (max-width: 648px) {
